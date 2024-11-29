@@ -35,7 +35,7 @@ embedding.eval()
 Trans.eval()
 
 # model load
-state_dict = torch.load('base_iter_10000.pth')
+state_dict = torch.load('base_iter_12000.pth')
 new_state_dict = OrderedDict()
 for k, v in state_dict.items():
     namekey = k
