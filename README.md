@@ -28,3 +28,4 @@ If you want to test your PuffNet on a couple of images, you can run the command:
 ````bash
 python test.py
 ````
+You can select the images and pass their paths to line 91 and 92. 
