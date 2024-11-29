@@ -10,7 +10,7 @@ from torchvision.utils import save_image
 
 import PuffNet
 import transformer
-import extraction2
+import extraction
 from argument import args
 from thop import profile
 
