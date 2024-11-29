@@ -7,7 +7,7 @@ from collections import OrderedDict
 
 import PuffNet
 import transformer
-import extraction2
+import extraction
 from argument import args
 from sample import content_iter, style_iter
 
@@ -45,8 +45,8 @@ decoder = PuffNet.decoder
 embedding = PuffNet.PatchEmbed()
 
 # feature extraction
-base = extraction2.BaseFeatureExtraction()
-detail = extraction2.DetailFeatureExtraction()
+base = extraction.BaseFeatureExtraction()
+detail = extraction.DetailFeatureExtraction()
 Trans = transformer.Transformer()
 
 
